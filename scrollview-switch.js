@@ -83,7 +83,7 @@ class ToggleSwitch extends React.Component {
     const { isActive } = this.state;
     
     return (
-      <TouchableOpacity  onPress={this.toggleSwitch} activeOpacity={1} ref = {this.setTouchableRef} disabled={disabled}>
+      <TouchableOpacity  onPress={console.log("Onpressed")} activeOpacity={1} ref = {this.setTouchableRef} disabled={disabled}>
       <View
         style={[
           styles.viewPort,
